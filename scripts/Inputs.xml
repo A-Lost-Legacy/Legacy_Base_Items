@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<modded_inputs>
+    <inputs>
+        <actions>
+            <input name="UALegacyToggleHood" loc="Toggle Hood"/>
+            <input name="UALegacyMoveUp" loc="Move Hologram Up"/>
+            <input name="UALegacyMoveDown" loc="Move Hologram Down"/>
+            <input name="UALegacyMoveLeft" loc="Move Hologram Left"/>
+            <input name="UALegacyMoveRight" loc="Move Hologram Right"/>
+            <input name="UALegacyMoveForward" loc="Move Hologram Forward"/>
+            <input name="UALegacyMoveBack" loc="Move Hologram Back"/>
+        </actions>
+
+        <sorting name="Legacy" loc="Legacy">
+            <input name="UALegacyToggleHood"/>
+            <input name="UALegacyMoveUp"/>
+            <input name="UALegacyMoveDown"/>
+            <input name="UALegacyMoveLeft"/>
+            <input name="UALegacyMoveRight"/>
+            <input name="UALegacyMoveForward"/>
+            <input name="UALegacyMoveBack"/>
+        </sorting>
+    </inputs>
+
+    <preset>
+        <input name="UALegacyToggleHood">
+            <btn name="kO"/>
+            <event name="hold"/>
+        </input>
+        <input name="UALegacyMoveUp">
+            <btn name="kUp"/>
+            <event name="press"/>
+        </input>
+        <input name="UALegacyMoveDown">
+            <btn name="kDown"/>
+            <event name="press"/>
+        </input>
+        <input name="UALegacyMoveLeft">
+            <btn name="kLeft"/>
+            <event name="press"/>
+        </input>
+        <input name="UALegacyMoveRight">
+            <btn name="kRight"/>
+            <event name="press"/>
+        </input>
+        <input name="UALegacyMoveForward">
+            <btn name="kW"/>
+            <event name="press"/>
+        </input>
+        <input name="UALegacyMoveBack">
+            <btn name="kS"/>
+            <event name="press"/>
+        </input>
+    </preset>
+</modded_inputs>
